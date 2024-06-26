@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC92BFVmUtQRNl0fwTIxiX40hKzFlesD23Ig&s');
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+
+        .Navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Centering items vertically */
+            background-color: rgba(255, 255, 255, 0.5); /* Adding a semi-transparent white background to the navigation bar */
+            padding: 10px; /* Adding padding to the navigation bar */
+        }
+
+        .Navbar a {
+            margin: 0 20px; /* Adjusting the spacing between links */
+            text-decoration: none;
+            color: black; /* Changing the color of the links */
+            font-size: 18px; /* Adjusting the font size */
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 200px; /* Set a specific width for the images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 10px; /* Adjust margin */
+        }
+    </style>
+</head>
+<body>
+    <nav class="Navbar">
+        <a href='https://app.powerbi.com/view?r=eyJrIjoiNjFlMDhhMmItNWQ4NC00ODQ2LTg1OWYtOWI2YWQ1ZGRlNjYxIiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9'>View our dashboard</a>
+        <a href='https://1drv.ms/x/c/e09e1dae18c4ddb0/EQvzx7WvPJVBortP2rCCJGgBjirPOFABBDU0A8I0GgGUKQ?e=WqpX5O'>Source</a>
+        <a href='file:///C:/Users/khoje/Downloads/base.html'>About Us</a>
+    </nav>
+    
+    <center>
+        <h1 style="color:red"><u>Analysis of crops grown in India</u></h1> 
+        <h2 style="color: purple"> The objective of our project is to understand and visualize the trends and patterns of the major crops grown in India, namely: Wheat, Rice, Maize, Cotton and Sugarcane at both regional and national levels using data of past 45 years in fields like agricultural production, identifying areas of improvement, and formulating policies for sustainable agricultural development.</h2>
+        <br><br>
+        <div class="image-container">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZTQyNWUzZDUtNDU5NC00Mzc3LTg4MDYtNzc5MWJlMTZjOGU2IiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9">
+            <img src="https://th.bing.com/th/id/OIG4.JoXkQCC1u6vQAUBoBZrP?pid=ImgGn">
+            <p>Cotton Crop</p>
+</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMjBjMzY3ODUtMTZiOS00ZGY0LWIxZGMtNzU2NGE4YjE3ODI3IiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/71/69/sugar-cane-logo-template-symbol-vector-33787169.jpg">
+            <p>Sugarcane Crop</p>
+</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMzMyMjM0YTYtMDk5ZS00YTBhLWJiZDgtMmNhMzY5YTM5YWZkIiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9">
+            <img src="https://th.bing.com/th/id/OIG4.oxyhxGssllXsJ.uPIa7X?pid=ImgGn">
+            <p>Wheat Crop</p>
+</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiN2Q5ZWVmMTMtOTYxYy00YTU5LTllZDMtMGFmZGRjN2FiYWI0IiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9">
+            <img src="https://th.bing.com/th/id/OIG1.1f25izUULk4UEBET_kLV?pid=ImgGn">
+            <p>Maize Crop</p>
+</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiY2YwYTRmYTItNTZjOC00NjJhLThkOTMtYjE5MzRiYTI1ZWI5IiwidCI6IjkxNjY1MjQ4LTljZWYtNGMzZC05OTM5LTQ2MmU1OTIzYjNjNCJ9">
+
+<img src="https://th.bing.com/th/id/OIG4.bKD6Y1PUFVEMgp7MABrl?pid=ImgGn">
+            <p>Rice Crop</p>
+</a>
+
+
+        </div>
+    </center>
+</body>
+</html>
